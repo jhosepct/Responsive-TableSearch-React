@@ -1,0 +1,31 @@
+.add {
+    padding: 10px;
+
+}
+
+.add button {
+    font-size: 15px;
+    background: transparent;
+    border: 1px solid #E0E0E0;
+    color: #363636;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.add button:hover {
+    border-color: transparent;
+    background: #363636;
+    color: #fcfcfc;
+}
+
+.add {
+    display: flex;
+    justify-content: start;
+}
+
+@media (max-width:768px) {
+    .add {
+        justify-content: center;
+    }
+}
